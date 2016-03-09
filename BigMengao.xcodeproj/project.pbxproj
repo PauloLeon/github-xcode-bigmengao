@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0BBD56811C9047EB006B5065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56801C9047EB006B5065 /* AppDelegate.swift */; };
-		0BBD56831C9047EB006B5065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56821C9047EB006B5065 /* ViewController.swift */; };
-		0BBD56861C9047EB006B5065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBD56841C9047EB006B5065 /* Main.storyboard */; };
 		0BBD56891C9047EB006B5065 /* BigMengao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56871C9047EB006B5065 /* BigMengao.xcdatamodeld */; };
 		0BBD568B1C9047EB006B5065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBD568A1C9047EB006B5065 /* Assets.xcassets */; };
 		0BBD568E1C9047EB006B5065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBD568C1C9047EB006B5065 /* LaunchScreen.storyboard */; };
 		0BBD56991C9047EC006B5065 /* BigMengaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56981C9047EC006B5065 /* BigMengaoTests.swift */; };
 		0BBD56A41C9047EC006B5065 /* BigMengaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56A31C9047EC006B5065 /* BigMengaoUITests.swift */; };
+		0BBD56BB1C906B3F006B5065 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56BA1C906B3F006B5065 /* SWRevealViewController.m */; };
+		0BBD56C31C906BC5006B5065 /* CardapioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56BE1C906BC5006B5065 /* CardapioTableViewController.swift */; };
+		0BBD56C51C906BC5006B5065 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56C01C906BC5006B5065 /* MenuController.swift */; };
+		0BBD56C61C906BC5006B5065 /* CardapioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD56C11C906BC5006B5065 /* CardapioTableViewCell.swift */; };
+		0BBD56C81C9095DA006B5065 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD56C71C9095DA006B5065 /* MapKit.framework */; };
+		0BBD56CA1C909770006B5065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBD56C91C909770006B5065 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		0BBD567D1C9047EB006B5065 /* BigMengao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigMengao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBD56801C9047EB006B5065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BBD56821C9047EB006B5065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BBD56851C9047EB006B5065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BBD56881C9047EB006B5065 /* BigMengao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BigMengao.xcdatamodel; sourceTree = "<group>"; };
 		0BBD568A1C9047EB006B5065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BBD568D1C9047EB006B5065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 		0BBD569F1C9047EC006B5065 /* BigMengaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMengaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBD56A31C9047EC006B5065 /* BigMengaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMengaoUITests.swift; sourceTree = "<group>"; };
 		0BBD56A51C9047EC006B5065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBD56B81C906B3F006B5065 /* BigMengao-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigMengao-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BBD56B91C906B3F006B5065 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0BBD56BA1C906B3F006B5065 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0BBD56BE1C906BC5006B5065 /* CardapioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardapioTableViewController.swift; sourceTree = "<group>"; };
+		0BBD56C01C906BC5006B5065 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		0BBD56C11C906BC5006B5065 /* CardapioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardapioTableViewCell.swift; sourceTree = "<group>"; };
+		0BBD56C71C9095DA006B5065 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0BBD56C91C909770006B5065 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBD56C81C9095DA006B5065 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +90,7 @@
 		0BBD56741C9047EB006B5065 = {
 			isa = PBXGroup;
 			children = (
+				0BBD56C71C9095DA006B5065 /* MapKit.framework */,
 				0BBD567F1C9047EB006B5065 /* BigMengao */,
 				0BBD56971C9047EC006B5065 /* BigMengaoTests */,
 				0BBD56A21C9047EC006B5065 /* BigMengaoUITests */,
@@ -99,10 +111,13 @@
 		0BBD567F1C9047EB006B5065 /* BigMengao */ = {
 			isa = PBXGroup;
 			children = (
+				0BBD56C91C909770006B5065 /* Main.storyboard */,
+				0BBD56BC1C906B44006B5065 /* SWRevealViewController */,
 				0BBD56801C9047EB006B5065 /* AppDelegate.swift */,
-				0BBD56821C9047EB006B5065 /* ViewController.swift */,
-				0BBD56841C9047EB006B5065 /* Main.storyboard */,
 				0BBD568A1C9047EB006B5065 /* Assets.xcassets */,
+				0BBD56BE1C906BC5006B5065 /* CardapioTableViewController.swift */,
+				0BBD56C01C906BC5006B5065 /* MenuController.swift */,
+				0BBD56C11C906BC5006B5065 /* CardapioTableViewCell.swift */,
 				0BBD568C1C9047EB006B5065 /* LaunchScreen.storyboard */,
 				0BBD568F1C9047EB006B5065 /* Info.plist */,
 				0BBD56871C9047EB006B5065 /* BigMengao.xcdatamodeld */,
@@ -126,6 +141,16 @@
 				0BBD56A51C9047EC006B5065 /* Info.plist */,
 			);
 			path = BigMengaoUITests;
+			sourceTree = "<group>";
+		};
+		0BBD56BC1C906B44006B5065 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BBD56B91C906B3F006B5065 /* SWRevealViewController.h */,
+				0BBD56BA1C906B3F006B5065 /* SWRevealViewController.m */,
+				0BBD56B81C906B3F006B5065 /* BigMengao-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBD56CA1C909770006B5065 /* Main.storyboard in Resources */,
 				0BBD568E1C9047EB006B5065 /* LaunchScreen.storyboard in Resources */,
 				0BBD568B1C9047EB006B5065 /* Assets.xcassets in Resources */,
-				0BBD56861C9047EB006B5065 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBD56831C9047EB006B5065 /* ViewController.swift in Sources */,
+				0BBD56C51C906BC5006B5065 /* MenuController.swift in Sources */,
 				0BBD56891C9047EB006B5065 /* BigMengao.xcdatamodeld in Sources */,
+				0BBD56C31C906BC5006B5065 /* CardapioTableViewController.swift in Sources */,
 				0BBD56811C9047EB006B5065 /* AppDelegate.swift in Sources */,
+				0BBD56BB1C906B3F006B5065 /* SWRevealViewController.m in Sources */,
+				0BBD56C61C906BC5006B5065 /* CardapioTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0BBD56841C9047EB006B5065 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BBD56851C9047EB006B5065 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0BBD568C1C9047EB006B5065 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -406,10 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BigMengao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = paramidia.BigMengao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigMengao/BigMengao-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,10 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BigMengao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = paramidia.BigMengao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BigMengao/BigMengao-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -491,6 +518,7 @@
 				0BBD56AA1C9047EC006B5065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBD56AB1C9047EC006B5065 /* Build configuration list for PBXNativeTarget "BigMengaoTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +527,7 @@
 				0BBD56AD1C9047EC006B5065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BBD56AE1C9047EC006B5065 /* Build configuration list for PBXNativeTarget "BigMengaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +536,7 @@
 				0BBD56B01C9047EC006B5065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
